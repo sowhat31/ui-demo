@@ -1,24 +1,22 @@
-# ui-demo
+# 快速开始
 
-## Project setup
-```
-npm install
-```
+#### 安装组件库
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+npm i ui-demo-sw31
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 引用组件库
+> 在 main.js 中引入组件库
 
-### Lints and fixes files
-```
-npm run lint
-```
+```javascript
+// 全部引入
+import 'ui-demo-sw31/dist/css/index.css'
+import UI from 'ui-demo-sw31'
+Vue.use(UI);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// 按需引入
+import 'ui-demo-sw31/dist/css/demo.css'
+import Demo from 'ui-demo-sw31'
+Vue.use(Demo);
+```

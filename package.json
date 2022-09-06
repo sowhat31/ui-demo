@@ -1,7 +1,18 @@
 {
   "name": "ui-demo-sw31",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.8.0",
+  "description": "ui演示组件库",
+  "main": "dist/index.umd.js",
+  "keywords": [
+    "ui-demo",
+    "vue",
+    "ui"
+  ],
+  "author": "huangjingpeng <huangjingpeng@richstonedt.com>",
+  "files": [
+    "dist",
+    "components"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
