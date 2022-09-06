@@ -2,11 +2,11 @@
 卡片组件
 
 ### 示例
-<m-card imgSrc="/logo.png" summary="test" />
+<m-card imgSrc="/ui-demo/logo.png" summary="test" />
 
 ### 代码
 ```html
-<m-card imgSrc="/logo.png" summary="test" />
+<m-card imgSrc="/ui-demo/logo.png" summary="test" />
 ```
 
 ### Attributes
